@@ -6,13 +6,13 @@ pipeline {
     }
 
     environment {
-        TARGET_DIR = '/your/target/folder'
+        TARGET_DIR = '/home/ubuntu/jenkinsassignment1'
     }
 
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'develop', url: 'https://your-repo-url.git'
+                git branch: 'develop', url: 'https://github.com/rggaikwad/jenkinsassignment1.git'
             }
         }
         
